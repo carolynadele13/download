@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Anthology of Louisiana Literature - George Washington Cable</title>
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="../../navigation/demo.css" />
+
+		<script>
+			$(document).ready(function() {
+				
+				defaultWidth	= 320; //pixels
+				transition		= 500; //millisecond
+				
+				function resetMargin(width) {
+						
+					divLeftMargin	= 0;
+				
+					$('.additional-block').each(function() {
+						
+						thisLeftMargin	= divLeftMargin + 'px';
+						
+						$(this).css('margin-left', thisLeftMargin);
+						
+						divLeftMargin	= divLeftMargin + width;
+						
+					});
+				}
+				
+				resetMargin(defaultWidth);
+				
+				$('.menu a').each(function() {
+					
+					thisHref	= $(this).attr('href');
+					
+					if($(thisHref).length > 0) {
+						$(this).addClass('has-child');
+					}
+					
+				});
+				
+				$('.menu a').click(function(event) {
+					
+					event.preventDefault();
+					
+					selectedDiv			= $(this).attr('href');
+					selectedMargin		= $(selectedDiv).css('margin-left');
+					selectedParent		= $(this).parents('.additional-block');
+					sliderMargin		= $('.slider').css('margin-left');
+					slidingMargin		= (parseInt(sliderMargin) - defaultWidth) + 'px';
+					
+					
+					if(selectedMargin.length > 0) {
+						
+						$(selectedDiv).children('.header').prepend('<span class="back"></span>').bind('click', function () {
+					
+							selectedParent	= $(this).parents('.additional-block');
+							sliderMargin	= - (parseInt(selectedParent.css('margin-left')) - defaultWidth) + 'px';
+							$('.slider').animate({marginLeft: sliderMargin}, transition);
+							
+						});
+							
+						if((parseInt(selectedMargin) - defaultWidth) >= defaultWidth) {
+						
+							selectedParent.after($(selectedDiv));
+							
+							resetMargin(defaultWidth);
+						
+							$('.slider').animate({marginLeft: slidingMargin}, transition);
+						
+						} else {
+						
+							$('.slider').animate({marginLeft: slidingMargin}, transition);
+					
+						}
+					}
+				});
+				
+			});
+		</script>
+
+                        <meta name = "viewport" content = "initial-scale = 1.30>
+</head>
+<body>
+<div id="container">
+	<div class="binder">
+		<div class="slider">
+
+			<div id="authors" class="additional-block">
+
+				<div class="header">
+George Washington Cable<a href="../../navigation/authors/authors_c.shtml"><IMG SRC="../../navigation/images/prev.png" WIDTH="10" 
+HEIGHT="15" BORDER="0" ALIGN="left" vspace="5"></a>
+				</div>
+
+				<ul class="menu">
+					<li><a href="cable--posson_jone.html">"Posson Jone'"</a></li>
+					<li><a href="authors/cb.shtml">CB</a></li>
+				</ul>
+			</div>
+
+			</div>
+		</div>
+	</div>
+</body>

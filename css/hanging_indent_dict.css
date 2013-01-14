@@ -1,0 +1,30 @@
+body {
+background-image: url('../../images/background2.jpg') repeat;
+background: #e6d6b0;
+}
+
+p{
+margin-top: 0;
+margin-bottom: 0;
+margin-left:.5in;
+text-indent:-.5in;
+font-family: garamond, baskerville, times, sans-serif;
+}
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #fcf2b5;
+}
+
+/* Mobile browsers only */
+@media only screen and (max-device-width: 480px) {
+
+
+p {
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-left:.25in;
+		text-indent:-.25in;
+		font-family: garamond, baskerville, times, sans-serif;
+}
+

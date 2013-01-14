@@ -1,0 +1,19 @@
+body {
+background-image: url('../../images/background2.jpg') repeat;
+background: #e6d6b0;
+}
+
+p{
+margin-top: 0;
+margin-bottom: 0;
+margin-left:.75in;
+margin-right:.75in;
+text-indent:-.5in;
+font-family: garamond, baskerville, times, sans-serif;
+}
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #d52;
+}
+

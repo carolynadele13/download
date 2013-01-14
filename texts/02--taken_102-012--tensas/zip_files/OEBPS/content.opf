@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="bookid">
+  <metadata>
+    <meta content="cover-image" name="cover"/>
+    <dc:type>Text</dc:type>
+    <dc:title>Odd leaves from the life of a Louisiana "swamp doctor"</dc:title>
+    <dc:creator>Lewis, Henry Clay, 1825-1850</dc:creator>
+    <dc:creator>Darley, Felix Octavius Carr, 1822-1888, ill</dc:creator>
+    <dc:description>Illustrated added t.-p., engraved</dc:description>
+    <dc:publisher>Philadelphia, Pa. : A. Hart</dc:publisher>
+    <dc:date>1850</dc:date>
+    <dc:language>en</dc:language>
+    <dc:contributor>University of Pittsburgh Library System</dc:contributor>
+    <dc:identifier id="bookid">oddleavesfromlif00lewi</dc:identifier>
+  </metadata>
+  <manifest>
+    <item href="stylesheet.css" id="css" media-type="text/css"/>
+    <item href="images/cover-image.jpg" id="cover-image" media-type="image/jpeg"/>
+    <item href="leaf0001.html" id="leaf0001" media-type="application/xhtml+xml"/>
+    <item href="intro.html" id="intro" media-type="application/xhtml+xml"/>
+    <item href="images/leaf-image0002.jpg" id="leaf-image0002" media-type="image/jpeg"/>
+    <item href="leaf0002.html" id="leaf0002" media-type="application/xhtml+xml"/>
+    <item href="images/leaf-image0007.jpg" id="leaf-image0007" media-type="image/jpeg"/>
+    <item href="leaf0007.html" id="leaf0007" media-type="application/xhtml+xml"/>
+    <item href="images/leaf-image0008.jpg" id="leaf-image0008" media-type="image/jpeg"/>
+    <item href="leaf0008.html" id="leaf0008" media-type="application/xhtml+xml"/>
+    <item href="images/leaf-image0009.jpg" id="leaf-image0009" media-type="image/jpeg"/>
+    <item href="leaf0009.html" id="leaf0009" media-type="application/xhtml+xml"/>
+    <item href="images/leaf-image0011.jpg" id="leaf-image0011" media-type="image/jpeg"/>
+    <item href="leaf0011.html" id="leaf0011" media-type="application/xhtml+xml"/>
+    <item href="images/leaf-image0012.jpg" id="leaf-image0012" media-type="image/jpeg"/>
+    <item href="leaf0012.html" id="leaf0012" media-type="application/xhtml+xml"/>
+    <item href="part0000.html" id="part0000" media-type="application/xhtml+xml"/>
+    <item href="images/leaf-image0015.jpg" id="leaf-image0015" media-type="image/jpeg"/>
+    <item href="leaf0015.html" id="leaf0015" media-type="application/xhtml+xml"/>
+    <item href="images/picture0.jpg" id="picture0" media-type="image/jpeg"/>
+    <item href="images/picture1.jpg" id="picture1" media-type="image/jpeg"/>
+    <item href="part0001.html" id="part0001" media-type="application/xhtml+xml"/>
+    <item href="images/picture2.jpg" id="picture2" media-type="image/jpeg"/>
+    <item href="part0002.html" id="part0002" media-type="application/xhtml+xml"/>
+    <item href="images/picture3.jpg" id="picture3" media-type="image/jpeg"/>
+    <item href="part0003.html" id="part0003" media-type="application/xhtml+xml"/>
+    <item href="images/leaf-image0232.jpg" id="leaf-image0232" media-type="image/jpeg"/>
+    <item href="leaf0232.html" id="leaf0232" media-type="application/xhtml+xml"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="leaf0001" linear="no"/>
+    <itemref idref="intro" linear="no"/>
+    <itemref idref="leaf0002" linear="no"/>
+    <itemref idref="leaf0007" linear="no"/>
+    <itemref idref="leaf0008" linear="no"/>
+    <itemref idref="leaf0009" linear="no"/>
+    <itemref idref="leaf0011" linear="no"/>
+    <itemref idref="leaf0012" linear="no"/>
+    <itemref idref="part0000"/>
+    <itemref idref="leaf0015" linear="no"/>
+    <itemref idref="part0001"/>
+    <itemref idref="part0002"/>
+    <itemref idref="part0003"/>
+    <itemref idref="leaf0232" linear="no"/>
+  </spine>
+  <guide>
+    <reference href="leaf0001.html" type="cover" title="Front Cover"/>
+    <reference href="leaf0011.html" type="title-page" title="Title Page"/>
+    <reference href="leaf0012.html" type="copyright-page" title="Title Page"/>
+    <reference href="part0000.html" type="text" title="Book"/>
+    <reference href="leaf0015.html" type="toc" title="Title Page"/>
+  </guide>
+</package>

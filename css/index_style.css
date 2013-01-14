@@ -1,0 +1,33 @@
+table.title {
+ 
+	font-size: 123.1%;
+	font-family: garamond, baskerville, times;
+	color: #432;
+}
+/* COMMON STYLES */
+h1, h2, h3, h4 {
+	font-variant: small-caps;
+	letter-spacing: 0.1em;
+	color: #432;
+	margin: 0.075em 2em 0.5em 2em;
+	border-bottom: 1px solid #F60;
+}
+h1 {
+	font-size: 1.4em;
+}
+h2 {
+	font-size: 1.3em;
+}
+h3 {
+	font-size: 1.2em;
+}
+h4 {
+	font-size: 1.1em;
+}
+h1 + p, h2 + p, h3 + p, blockquote > p:first-child, li > p:first-child {
+	text-indent: 0em;
+}
+h1 + p::first-letter, h2 + p::first-letter, h3 + p::first-letter {
+	font-size: 1.6em;
+	color: #432;
+}

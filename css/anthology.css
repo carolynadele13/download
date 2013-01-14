@@ -1,0 +1,161 @@
+/* BASE STRUCTURE, COLOR, FONTS */
+html {
+  	height: 100%;
+      margin : 0;
+      padding : 0;
+	background: #e6d6b0;
+}
+
+BODY {
+	margin-left:auto;
+	margin-right:auto;
+	background: #e6d6b0;
+	width:750px; 
+} 
+
+
+body { 
+	font-size: 123.1%;
+	font-family: garamond, baskerville, times, sans-serif;
+	color: #432;
+}
+
+
+div.maincontainer{
+    width: 750px;
+    text-align: left;
+    background: url('../images/background2.jpg');
+} 
+
+
+
+
+/* COMMON STYLES */
+h1, h2, h3, h4 {
+	font-variant: small-caps;
+	letter-spacing: 0.1em;
+	color: #432;
+	margin: 0.075em 2em 0.5em 2em;
+	border-bottom: 1px solid #432;
+}
+h1 {
+	font-size: 1.4em;
+}
+h2 {
+	font-size: 1.3em;
+}
+h3 {
+	font-size: 1.2em;
+}
+h4 {
+	font-size: 1.1em;
+}
+h1 + p, h2 + p, h3 + p, blockquote > p:first-child, li > p:first-child {
+	text-indent: 0em;
+}
+h1 + p::first-letter, h2 + p::first-letter, h3 + p::first-letter {
+	font-size: 1.6em;
+	color: #432;
+}
+p {
+	line-height: 1.6em;
+	text-indent: 1.5em;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #d52;
+	border: none;
+}
+em, cite, dfn, i {
+	font-style: italic;
+	letter-spacing: 0.08em;
+}
+ul {
+	margin: 0.05em 0em 0.05em 2em;
+}
+ul > li {
+	list-style: disc;
+}
+ol {
+	margin: 0.05em 0em 0.05em 2.5em;
+}
+li {
+	margin-bottom: 0.25em;
+}
+
+/* ol > li p, ul > li p {
+	text-indent: 0em;
+} */
+
+blockquote {
+	font-size: 0.95em;
+	margin: 0.75em 0em 0.75em 1.5em;
+	padding: 0em 0.5em;
+	border-left: 1px solid #b3a15a;
+}
+blockquote p {
+	line-height: 1.4em;
+}
+
+
+pre {
+	margin: 0.75em 0em;
+	padding: 0.5em;
+	border-top: 1px solid #b3a15a;
+	border-left: 1px solid #b3a15a;
+	border-right: 1px solid #745e25;
+	border-bottom: 1px solid #745e25;
+	background: #fff;
+	white-space: pre-wrap;
+}
+pre, code {
+	color: #432;
+	font-size: 0.95em;
+	font-family: courier new;	
+}
+strong {
+	font-weight: bold;
+}
+
+
+/* Mobile browsers only */
+@media only screen and (max-device-width: 480px) {
+    body {
+        	width: 320px;
+   		background: #e6d6b0 url(background2.jpg);
+	      background: #e6d6b0 url('../../images/background2.jpg');
+   		margin: 0;
+   		padding: 0;
+
+    	}
+
+
+
+div.maincontainer{
+    width: 320px;
+    text-align: left;
+    background: url('../images/background2.jpg');
+}
+
+
+ul {
+  margin-left:1em;
+  padding-left:1em;
+	}
+ol {
+  margin-left:1em;
+  padding-left:1em;
+	}
+h1, h2, h3, h4 {
+	font-variant: small-caps;
+	letter-spacing: 0.1em;
+	color: #432;
+	margin: 0.075em 0.5em 0.5em 0em;
+	border-bottom: 1px solid #432;
+}
+
+
+}
